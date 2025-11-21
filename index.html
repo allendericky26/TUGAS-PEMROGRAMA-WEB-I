@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portofolio | Ricky Allende R</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80">
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home"> <span class="brand-dot me-2"></span>Ricky Allende R </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Latihan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn-contact" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section id="home" class="jumbotron text-center">
+      <img src="img/unpam.png" alt="Logo Saya" width="90" class="mb-3" />
+      <h1 class="display-4">Halo 👋, Saya <span class="fw-bold text-info">Ricky Allend</span></h1>
+      <p class="lead">Mahasiswa IT | Web Developer | Tax Consultant Admin</p>
+      <a href="#profile" class="btn btn-primary px-4 mt-2"> Lihat Portofolio Saya </a>
+
+      <!-- SVG wave -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#4b5563"
+          fill-opacity="1"
+          d="M0,288L10,266.7C20,245,40,203,60,186.7C80,171,100,181,120,176C140,171,160,149,180,122.7C200,96,220,64,240,48C260,32,280,32,300,42.7C320,53,340,75,360,101.3C380,128,400,160,420,176C440,192,460,192,480,165.3C500,139,520,85,540,64C560,43,580,53,600,64C620,75,640,85,660,96C680,107,700,117,720,144C740,171,760,213,780,197.3C800,181,820,107,840,106.7C860,107,880,181,900,186.7C920,192,940,128,960,96C980,64,1000,64,1020,90.7C1040,117,1060,171,1080,213.3C1100,256,1120,288,1140,266.7C1160,245,1180,171,1200,128C1220,85,1240,75,1260,90.7C1280,107,1300,149,1320,149.3C1340,149,1360,107,1380,96C1400,85,1420,107,1430,117.3L1440,128L1440,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Profile -->
+    <section id="profile" class="profile-section py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="profile-card">
+              <div class="row align-items-center g-4">
+                <!-- Teks kiri -->
+                <div class="col-md-7">
+                  <h2 class="profile-title">About Me <span class="profile-icon"></span></h2>
+                  <p class="mb-3">Hello again! Thanks for scrolling this far! Perkenalkan saya Ricky Allende Rabbani Mahasiswa Universitas Pamulang Prodi Teknik Informatika dengan Nim 231011403602 Saya semester 5 kelas TPLM007</p>
+                  <p class="mb-3">Portofolio ini masih terus saya update, yang nantinya akan berisi update tentang Tugas perkuliahan Mata Kuliah Pemrograman Web 1.</p>
+                  <p class="mb-0">Di luar ngoding, saya suka ngulik hal baru seputar web development, desain, dan kadang main game juga. 🎮 Kalau kamu punya rekomendasi buku atau ide project seru, feel free untuk kontak saya ya!</p>
+                </div>
+
+                <!-- Foto kanan -->
+                <div class="col-md-5 text-center text-md-end">
+                  <div class="profile-photo-wrapper">
+                    <img src="img/ricky.jpeg" alt="Ricky Allende Rabbani" class="img-fluid profile-photo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Profile -->
+
+    <!-- Project / Latihan -->
+    <section id="projects" class="projects-section">
+      <div class="section-card-wrapper">
+        <div class="section-card">
+          <div class="text-center mb-4">
+            <h2 class="section-title mb-1">Latihan</h2>
+            <p class="section-subtext">Beberapa latihan pemrograman web yang sudah saya kerjakan. Pilih salah satu card untuk melihat detailnya.</p>
+          </div>
+
+          <!-- wrapper scroll horizontal -->
+          <div class="projects-scroll-wrapper">
+            <div class="projects-track">
+              <!-- Card 2.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 2 | Tugas 1
+                  <img src="img/p1.jpg" alt="Pertemuan 2 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 2 | Tugas 1</h3>
+                      <p class="project-desc">Basic Tag HTML, Struktur HMTL dan Format dokumen HTML.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">title</span>
+                        <span class="tag-pill">head</span>
+                        <span class="tag-pill">body</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 2/latihan 2-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 2.2 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 2 | Tugas 2
+                  <img src="img/p1.jpg" alt="Pertemuan 2 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 2 | Tugas 2</h3>
+                      <p class="project-desc">Basic Tag HTML, Struktur HMTL dan Format dokumen HTML.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">title</span>
+                        <span class="tag-pill">head</span>
+                        <span class="tag-pill">body</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 2/latihan 2-2.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 3.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 3 | Tugas 1
+                  <img src="img/p2.jpg" alt="Pertemuan 3 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 2 | Tugas 2</h3>
+                      <p class="project-desc">Format teks dan Karakter Khusus.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">font</span>
+                        <span class="tag-pill">size</span>
+                        <span class="tag-pill">br</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 3/Latihan 3-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 3.2 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 3 | Tugas 2
+                  <img src="img/p2.jpg" alt="Pertemuan 3 | Tugas 2" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 3 | Tugas 2</h3>
+                      <p class="project-desc">Format teks dan Karakter Khusus.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">bold</span>
+                        <span class="tag-pill">italic</span>
+                        <span class="tag-pill">Character</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 3/Latihan 3-2.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 4.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 4 | Tugas 1
+                  <img src="img/p3.jpg" alt="Pertemuan 4 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 4 | Tugas 1</h3>
+                      <p class="project-desc">Menampilkan Gambar, Suara dan video.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">src</span>
+                        <span class="tag-pill">img</span>
+                        <span class="tag-pill">map</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 4/latihan 4-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 4.2 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 4 | Tugas 2
+                  <img src="img/p3.jpg" alt="Pertemuan 4 | Tugas 2" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 4 | Tugas 2</h3>
+                      <p class="project-desc">Menampilkan Gambar, Suara dan video.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">bgsound</span>
+                        <span class="tag-pill">loop</span>
+                        <span class="tag-pill">Volume</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 4/latihan 4-2.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 4.3 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 4 | Tugas 3
+                  <img src="img/p3.jpg" alt="Pertemuan 4 | Tugas 3" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 4 | Tugas 3</h3>
+                      <p class="project-desc">Menampilkan Gambar, Suara dan video.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">embed</span>
+                        <span class="tag-pill">video</span>
+                        <span class="tag-pill">Content</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 4/latihan 4-3.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 5.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 5 | Tugas 1
+                  <img src="img/p4.jpg" alt="Pertemuan 5 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 5 | Tugas 1</h3>
+                      <p class="project-desc">HYPERLINK.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">home</span>
+                        <span class="tag-pill">profile</span>
+                        <span class="tag-pill">kontak</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 5/latihan 5-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 6.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 6 | Tugas 1
+                  <img src="img/p5.jpg" alt="Pertemuan 6 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 5 | Tugas 1</h3>
+                      <p class="project-desc">Bullets Numbering dan List.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">li</span>
+                        <span class="tag-pill">ul</span>
+                        <span class="tag-pill">dl</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 6/latihan 6-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 7.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 7 | Tugas 1
+                  <img src="img/p6.jpg" alt="Pertemuan 7 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 7 | Tugas 1</h3>
+                      <p class="project-desc">Pembuatan Tabel.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">tr</span>
+                        <span class="tag-pill">th</span>
+                        <span class="tag-pill">td</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 7/latihan 7-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 7.2 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 7 | Tugas 2
+                  <img src="img/p6.jpg" alt="Pertemuan 7 | Tugas 2" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 7 | Tugas 2</h3>
+                      <p class="project-desc">Pembuatan Tabel.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">Width</span>
+                        <span class="tag-pill">table borde</span>
+                        <span class="tag-pill">cellspacing</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 7/latihan 7-2.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 8.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 8 | Tugas 1
+                  <img src="img/p7.jpg" alt="Pertemuan 8 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 8 | Tugas 1</h3>
+                      <p class="project-desc">Pembuatan Form.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">radio</span>
+                        <span class="tag-pill">checkbox</span>
+                        <span class="tag-pill">list</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 8/latihan 8-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 8.2 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 8 | Tugas 2
+                  <img src="img/p7.jpg" alt="Pertemuan 8 | Tugas 2" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 8 | Tugas 2</h3>
+                      <p class="project-desc">Pembuatan Form.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">option value</span>
+                        <span class="tag-pill">select</span>
+                        <span class="tag-pill">input type</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 8/latihan 8-2.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 10.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 10 | Tugas 1
+                  <img src="img/p8.jpg" alt="Pertemuan 10 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 10 | Tugas 1</h3>
+                      <p class="project-desc">Cascading Style Sheet (CSS).</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">font</span>
+                        <span class="tag-pill">align</span>
+                        <span class="tag-pill">margin</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 10/latihan 10-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 10.2 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 10 | Tugas 2
+                  <img src="img/p8.jpg" alt="Pertemuan 10 | Tugas 2" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 10 | Tugas 2</h3>
+                      <p class="project-desc">Cascading Style Sheet (CSS).</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">font</span>
+                        <span class="tag-pill">size</span>
+                        <span class="tag-pill">family</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 10/latihan 10-2.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 11.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 11 | Tugas 1
+                  <img src="img/p9.jpg" alt="Pertemuan 11 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 11 | Tugas 1</h3>
+                      <p class="project-desc">Pembuatan kerangka Web.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">div</span>
+                        <span class="tag-pill">footer</span>
+                        <span class="tag-pill">wrapper</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 11/latihan 11-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- Card 12.1 -->
+              <article class="project-card">
+                <div class="project-label">
+                  Pertemuan 12 | Tugas 1
+                  <img src="img/p10.jpg" alt="Pertemuan 12 | Tugas 1" class="project-image" />
+                  <div class="project-overlay">
+                    <div class="project-overlay-content">
+                      <h3 class="project-title">Pertemuan 12 | Tugas 1</h3>
+                      <p class="project-desc">Pembuatan Web Sederhana.</p>
+                      <div class="project-tags">
+                        <span class="tag-pill">sidebar</span>
+                        <span class="tag-pill">inner</span>
+                        <span class="tag-pill">href</span>
+                      </div>
+                      <div class="project-actions">
+                        <a href="PERTEMUAN 12/latihan 12-1.html" class="btn btn-live" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Project -->
+
+    <!-- Link ke repositori GitHub utama -->
+    <section class="repo-section">
+      <div class="container text-center">
+        <p class="repo-text mb-3">Mau lihat versi lengkap dari semua latihan dan eksperimen koding saya?</p>
+        <a href="https://github.com/allendericky26/TUGAS-PEMROGRAMA-WEB-I.git" class="btn repo-btn d-inline-flex align-items-center gap-2" target="_blank" rel="noopener noreferrer">
+          <!-- ikon kecil pakai emoji / bisa diganti SVG -->
+          <span class="repo-icon">💻</span>
+          <span>Lihat Repositori Utama di GitHub</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+      <div class="section-card-wrapper">
+        <div class="section-card">
+          <div class="text-center mb-4">
+            <h2 class="section-title">Gallery</h2>
+          </div>
+
+          <div class="gallery-scroll-wrapper">
+            <div class="gallery-track">
+              <div class="gallery-item">
+                <img src="img/foto1.jpg" alt="Foto 1" />
+              </div>
+              <div class="gallery-item">
+                <img src="img/foto2.jpg" alt="Foto 2" />
+              </div>
+              <div class="gallery-item">
+                <img src="img/foto3.png" alt="Foto 3" />
+              </div>
+              <div class="gallery-item">
+                <img src="img/foto4.png" alt="Foto 3" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Gallery -->
+
+    <!-- Kontak -->
+    <section id="kontak" class="contact-section py-5">
+      <div class="container">
+        <!-- Judul -->
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-lg-8">
+            <h2 class="contact-title">Kontak</h2>
+            <p class="contact-subtitle">Punya saran, masukan, atau mau diskusi seputar pemrograman web? Kirim pesan ke saya lewat formulir di bawah ini.</p>
+          </div>
+        </div>
+
+        <!-- Card Form -->
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="contact-card p-4 p-md-5">
+              <form id="contact-form" novalidate>
+                <div class="mb-3">
+                  <label for="nama" class="form-label contact-label">Nama</label>
+                  <input type="text" class="form-control contact-input" id="nama" placeholder="Masukkan nama kamu" required />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label contact-label">Email</label>
+                  <input type="email" class="form-control contact-input" id="email" placeholder="nama@email.com" required />
+                </div>
+
+                <div class="mb-4">
+                  <label for="pesan" class="form-label contact-label">Pesan</label>
+                  <textarea class="form-control contact-input contact-textarea" id="pesan" rows="5" placeholder="Tulis pesan kamu di sini" required></textarea>
+                </div>
+
+                <button type="submit" class="btn contact-submit-btn w-100">Kirim Pesan ✉️</button>
+
+                <p class="contact-footnote mt-3 mb-0">Saya akan berusaha membalas secepat mungkin 😊</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Kontak -->
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+      <p>© 2025 Portofolio Ricky Allende Rabbani.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Smooth scroll -->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            e.preventDefault();
+            window.scrollTo({
+              top: target.offsetTop - 70,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+
+    <!-- Form kontak + kirim ke Google Sheets -->
+    <script>
+      const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwn500b6J6Q59OY2kbAoYbORAn0jOgTuqkd4ZHj9JN16zdtwdJz3dM-pRPoeVDOJSddfg/exec";
+
+      const form = document.getElementById("contact-form");
+      const namaInput = document.getElementById("nama");
+      const emailInput = document.getElementById("email");
+      const pesanInput = document.getElementById("pesan");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // reset state error
+        [namaInput, emailInput, pesanInput].forEach((el) => el.classList.remove("is-invalid"));
+
+        const errors = [];
+
+        if (!namaInput.value.trim()) {
+          errors.push("Nama wajib diisi.");
+          namaInput.classList.add("is-invalid");
+        }
+
+        if (!emailInput.value.trim()) {
+          errors.push("Email wajib diisi.");
+          emailInput.classList.add("is-invalid");
+        } else if (!validateEmail(emailInput.value.trim())) {
+          errors.push("Format email tidak valid.");
+          emailInput.classList.add("is-invalid");
+        }
+
+        if (!pesanInput.value.trim()) {
+          errors.push("Pesan wajib diisi.");
+          pesanInput.classList.add("is-invalid");
+        }
+
+        if (errors.length > 0) {
+          alert("Harap lengkapi data berikut:\n\n- " + errors.join("\n- "));
+          return;
+        }
+
+        const payload = {
+          nama: namaInput.value.trim(),
+          email: emailInput.value.trim(),
+          pesan: pesanInput.value.trim(),
+        };
+
+        const submitBtn = form.querySelector(".contact-submit-btn");
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.innerText = "Mengirim...";
+        }
+
+        fetch(SCRIPT_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log("Response Script:", data);
+            if (data.status === "success") {
+              alert("Terima kasih! Pesan kamu sudah tersimpan.");
+              form.reset();
+            } else {
+              alert("Maaf, terjadi kesalahan saat menyimpan data.\n\n" + (data.message || "Coba beberapa saat lagi."));
+            }
+          })
+          .catch((err) => {
+            console.error(err);
+            alert("Terjadi masalah koneksi saat mengirim pesan.\nSilakan coba lagi nanti.");
+          })
+          .finally(() => {
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.innerText = "Kirim Pesan ✉️";
+            }
+          });
+      });
+
+      function validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      }
+    </script>
+  </body>
+</html>
