@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style2.css" />
+
+    <title>My Portofolio | Ricky Allende R</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80">
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home"> <span class="brand-dot me-2"></span>Ricky Allende R </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Latihan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link btn-contact" href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section id="home" class="jumbotron text-center scroll-fade">
+      <img src="img/unpam.png" alt="Logo Saya" width="90" class="mb-3 jumbotron-logo" />
+      <h1 class="display-4 jumbotron-title">Halo 👋, Saya <span class="fw-bold text-info">Ricky Allend</span></h1>
+      <p class="lead jumbotron-subtitle">Mahasiswa IT | Web Developer | Tax Consultant Admin</p>
+      <a href="#profile" class="btn btn-primary px-4 mt-2 jumbotron-btn">Lihat Portofolio Saya</a>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#4b5563"
+          fill-opacity="1"
+          d="M0,288L10,266.7C20,245,40,203,60,186.7C80,171,100,181,120,176C140,171,160,149,180,122.7C200,96,220,64,240,48C260,32,280,32,300,42.7C320,53,340,75,360,101.3C380,128,400,160,420,176C440,192,460,192,480,165.3C500,139,520,85,540,64C560,43,580,53,600,64C620,75,640,85,660,96C680,107,700,117,720,144C740,171,760,213,780,197.3C800,181,820,107,840,106.7C860,107,880,181,900,186.7C920,192,940,128,960,96C980,64,1000,64,1020,90.7C1040,117,1060,171,1080,213.3C1100,256,1120,288,1140,266.7C1160,245,1180,171,1200,128C1220,85,1240,75,1260,90.7C1280,107,1300,149,1320,149.3C1340,149,1360,107,1380,96C1400,85,1420,107,1430,117.3L1440,128L1440,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Profile -->
+    <section id="profile" class="profile-section py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="profile-card scroll-fade">
+              <div class="row align-items-center g-4">
+                <div class="col-md-7">
+                  <h2 class="profile-title">About Me</h2>
+                  <p class="mb-3">Hello again! Thanks for scrolling this far! Perkenalkan saya Ricky Allende Rabbani Mahasiswa Universitas Pamulang Prodi Teknik Informatika dengan Nim 231011403602 Saya semester 5 kelas TPLM007</p>
+                  <p class="mb-3">Portofolio ini masih terus saya update, yang nantinya akan berisi update tentang Tugas perkuliahan Mata Kuliah Pemrograman Web 1.</p>
+                  <p class="mb-0">Di luar ngoding, saya suka ngulik hal baru seputar web development, desain, dan kadang main game juga. 🎮 Kalau kamu punya rekomendasi buku atau ide project seru, feel free untuk kontak saya ya!</p>
+                </div>
+
+                <div class="col-md-5 text-center text-md-end">
+                  <div class="profile-photo-wrapper">
+                    <img src="img/ricky.jpeg" alt="Ricky Allende Rabbani" class="img-fluid profile-photo" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Profile -->
+
+    <!-- Project / Latihan -->
+    <section id="projects" class="projects-section">
+      <div class="section-card-wrapper">
+        <div class="section-card scroll-fade">
+          <div class="text-center mb-4">
+            <h2 class="section-title mb-1">Latihan</h2>
+            <p class="section-subtext">Beberapa latihan pemrograman web yang sudah saya kerjakan. Pilih salah satu card untuk melihat detailnya.</p>
+          </div>
+
+          <div class="projects-scroll-wrapper">
+            <div id="projects-track" class="projects-track"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Project -->
+
+    <!-- Link Repo -->
+    <section class="repo-section">
+      <div class="container">
+        <div class="repo-inner">
+          <div class="repo-info">
+            <div class="repo-badge">Source Code</div>
+            <h3 class="repo-title">Semua latihan ada di satu repositori</h3>
+            <p class="repo-text">Lihat struktur folder, file latihan dari pertemuan 2–12, dan eksperimen kecil lainnya langsung di GitHub.</p>
+            <div class="repo-tags">
+              <span>HTML</span>
+              <span>Form & Table</span>
+              <span>CSS Layout</span>
+            </div>
+          </div>
+
+          <div class="repo-action text-center">
+            <div class="repo-orbit">
+              <span class="repo-icon">💻</span>
+            </div>
+            <a href="https://github.com/allendericky26/TUGAS-PEMROGRAMA-WEB-I.git" class="btn repo-btn" target="_blank" rel="noopener noreferrer"> Lihat Repositori Utama di GitHub </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+      <div class="section-card-wrapper">
+        <div class="section-card scroll-fade">
+          <div class="text-center mb-4">
+            <h2 class="section-title">Gallery</h2>
+          </div>
+
+          <div class="gallery-scroll-wrapper">
+            <div id="gallery-track" class="gallery-track"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
+
+    <!-- Kontak -->
+    <section id="kontak" class="contact-section py-5">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-lg-8">
+            <h2 class="contact-title">Kontak</h2>
+            <p class="contact-subtitle">Punya saran, masukan, atau mau diskusi seputar pemrograman web? Kirim pesan ke saya lewat formulir di bawah ini.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="contact-card p-4 p-md-5 scroll-fade">
+              <form id="contact-form" novalidate>
+                <div class="mb-3">
+                  <label for="nama" class="form-label contact-label">Nama</label>
+                  <input type="text" class="form-control contact-input" id="nama" placeholder="Masukkan nama kamu" required />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label contact-label">Email</label>
+                  <input type="email" class="form-control contact-input" id="email" placeholder="nama@email.com" required />
+                </div>
+
+                <div class="mb-4">
+                  <label for="pesan" class="form-label contact-label">Pesan</label>
+                  <textarea class="form-control contact-input contact-textarea" id="pesan" rows="5" placeholder="Tulis pesan kamu di sini" required></textarea>
+                </div>
+
+                <button type="submit" class="btn contact-submit-btn w-100">Kirim Pesan ✉️</button>
+
+                <p class="contact-footnote mt-3 mb-1">Saya akan berusaha membalas secepat mungkin 😊</p>
+
+                <div class="contact-socials">
+                  <a href="https://wa.me/6285694428159" class="social-link wa" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                  <a href="https://instagram.com/rkyalndrbni_" class="social-link ig" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="https://github.com/allendericky26" class="social-link gh" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Kontak -->
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <p>© 2025 Portofolio Ricky Allende Rabbani.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      // Smooth scroll
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            e.preventDefault();
+            window.scrollTo({ top: target.offsetTop - 70, behavior: "smooth" });
+          }
+        });
+      });
+
+      // Data Latihan
+      const projects = [
+        {
+          label: "Pertemuan 2 | Tugas 1",
+          img: "img/p1.jpg",
+          title: "Pertemuan 2 | Tugas 1",
+          desc: "Basic Tag HTML, Struktur HMTL dan Format dokumen HTML.",
+          tags: ["title", "head", "body"],
+          link: "PERTEMUAN 2/latihan 2-1.html",
+        },
+        {
+          label: "Pertemuan 2 | Tugas 2",
+          img: "img/p1.jpg",
+          title: "Pertemuan 2 | Tugas 2",
+          desc: "Basic Tag HTML, Struktur HMTL dan Format dokumen HTML.",
+          tags: ["title", "head", "body"],
+          link: "PERTEMUAN 3/latihan 2-2.html",
+        },
+        {
+          label: "Pertemuan 3 | Tugas 1",
+          img: "img/p2.jpg",
+          title: "Pertemuan 3 | Tugas 1",
+          desc: "Format teks dan Karakter Khusus.",
+          tags: ["font", "size", "br"],
+          link: "PERTEMUAN 3/Latihan 3-1.html",
+        },
+        {
+          label: "Pertemuan 3 | Tugas 2",
+          img: "img/p2.jpg",
+          title: "Pertemuan 3 | Tugas 2",
+          desc: "Format teks dan Karakter Khusus.",
+          tags: ["bold", "italic", "character"],
+          link: "PERTEMUAN 3/Latihan 3-2.html",
+        },
+        {
+          label: "Pertemuan 4 | Tugas 1",
+          img: "img/p3.jpg",
+          title: "Pertemuan 4 | Tugas 1",
+          desc: "Menampilkan Gambar, Suara dan video.",
+          tags: ["src", "img", "map"],
+          link: "PERTEMUAN 4/latihan 4-1.html",
+        },
+        {
+          label: "Pertemuan 4 | Tugas 2",
+          img: "img/p3.jpg",
+          title: "Pertemuan 4 | Tugas 2",
+          desc: "Menampilkan Gambar, Suara dan video.",
+          tags: ["bgsound", "loop", "volume"],
+          link: "PERTEMUAN 4/latihan 4-2.html",
+        },
+        {
+          label: "Pertemuan 4 | Tugas 3",
+          img: "img/p3.jpg",
+          title: "Pertemuan 4 | Tugas 3",
+          desc: "Menampilkan Gambar, Suara dan video.",
+          tags: ["embed", "video", "content"],
+          link: "PERTEMUAN 4/latihan 4-3.html",
+        },
+        {
+          label: "Pertemuan 5 | Tugas 1",
+          img: "img/p4.jpg",
+          title: "Pertemuan 5 | Tugas 1",
+          desc: "HYPERLINK.",
+          tags: ["home", "profile", "kontak"],
+          link: "PERTEMUAN 5/latihan 5-1.html",
+        },
+        {
+          label: "Pertemuan 6 | Tugas 1",
+          img: "img/p5.jpg",
+          title: "Pertemuan 6 | Tugas 1",
+          desc: "Bullets Numbering dan List.",
+          tags: ["li", "ul", "dl"],
+          link: "PERTEMUAN 6/latihan 6-1.html",
+        },
+        {
+          label: "Pertemuan 7 | Tugas 1",
+          img: "img/p6.jpg",
+          title: "Pertemuan 7 | Tugas 1",
+          desc: "Pembuatan Tabel.",
+          tags: ["tr", "th", "td"],
+          link: "PERTEMUAN 7/latihan 7-1.html",
+        },
+        {
+          label: "Pertemuan 7 | Tugas 2",
+          img: "img/p6.jpg",
+          title: "Pertemuan 7 | Tugas 2",
+          desc: "Pembuatan Tabel.",
+          tags: ["width", "table border", "cellspacing"],
+          link: "PERTEMUAN 7/latihan 7-2.html",
+        },
+        {
+          label: "Pertemuan 8 | Tugas 1",
+          img: "img/p7.jpg",
+          title: "Pertemuan 8 | Tugas 1",
+          desc: "Pembuatan Form.",
+          tags: ["radio", "checkbox", "list"],
+          link: "PERTEMUAN 8/latihan 8-1.html",
+        },
+        {
+          label: "Pertemuan 8 | Tugas 2",
+          img: "img/p7.jpg",
+          title: "Pertemuan 8 | Tugas 2",
+          desc: "Pembuatan Form.",
+          tags: ["option value", "select", "input type"],
+          link: "PERTEMUAN 8/latihan 8-2.html",
+        },
+        {
+          label: "Pertemuan 9 | Tugas 1",
+          img: "img/p12.png",
+          title: "Pertemuan 9 | Tugas 1",
+          desc: "Pembuatan Frame Website.",
+          tags: ["frame", "frameset", "html"],
+          link: "PERTEMUAN 9/latihan 9-1.html",
+        },
+        {
+          label: "Pertemuan 10 | Tugas 1",
+          img: "img/p8.jpg",
+          title: "Pertemuan 10 | Tugas 1",
+          desc: "Cascading Style Sheet (CSS).",
+          tags: ["font", "align", "margin"],
+          link: "PERTEMUAN 10/latihan 10-1.html",
+        },
+        {
+          label: "Pertemuan 10 | Tugas 2",
+          img: "img/p8.jpg",
+          title: "Pertemuan 10 | Tugas 2",
+          desc: "Cascading Style Sheet (CSS).",
+          tags: ["font", "size", "family"],
+          link: "PERTEMUAN 10/latihan 10-2.html",
+        },
+        {
+          label: "Pertemuan 11 | Tugas 1",
+          img: "img/p9.jpg",
+          title: "Pertemuan 11 | Tugas 1",
+          desc: "Pembuatan kerangka Web.",
+          tags: ["div", "footer", "wrapper"],
+          link: "PERTEMUAN 11/latihan 11-1.html",
+        },
+        {
+          label: "Pertemuan 12 | Tugas 1",
+          img: "img/p10.jpg",
+          title: "Pertemuan 12 | Tugas 1",
+          desc: "Pembuatan Web Sederhana.",
+          tags: ["sidebar", "inner", "href"],
+          link: "PERTEMUAN 12/latihan 12-1.html",
+        },
+        {
+          label: "Pertemuan 13 | Tugas 1",
+          img: "img/p15.jpg",
+          title: "Pertemuan 13 | Tugas 1",
+          desc: "Reading Page Portofolio.",
+          tags: ["Jumbotron", "wrapper", "link"],
+          link: "PERTEMUAN 13/latihan 13-1.html",
+        },
+        {
+          label: "Pertemuan 14 | Tugas 1",
+          img: "img/p11.jpg",
+          title: "Pertemuan 14 | Tugas 1",
+          desc: "Pembuatan Alert.",
+          tags: ["var", "string", "alert"],
+          link: "PERTEMUAN 14/latihan 14-1.html",
+        },
+        {
+          label: "Pertemuan 15 | Tugas 1",
+          img: "img/p14.jpg",
+          title: "Pertemuan 15 | Tugas 1",
+          desc: "Dialog Box.",
+          tags: ["Alert", "Prompt", "Confirm"],
+          link: "PERTEMUAN 15/Latihan 15-1.html",
+        },
+        {
+          label: "Pertemuan 16 | Tugas 1",
+          img: "img/p13.jpg",
+          title: "Pertemuan 16 | Tugas 1",
+          desc: "Tipe Data Dan Operator.",
+          tags: ["Var", "String", "Null"],
+          link: "PERTEMUAN 16/latihan 16-1.html",
+        },
+        {
+          label: "Pertemuan 16 | Tugas 2",
+          img: "img/p13.jpg",
+          title: "Pertemuan 16 | Tugas 2",
+          desc: "Tipe Data Dan Operator.",
+          tags: ["Myint", "Myfloat", "Integer"],
+          link: "PERTEMUAN 16/latihan 16-2.html",
+        },
+        {
+          label: "Pertemuan 16 | Tugas 3",
+          img: "img/p13.jpg",
+          title: "Pertemuan 16 | Tugas 3",
+          desc: "Pembuatan Kalkulator Sederhana.",
+          tags: ["Javascript", "Span", "Value"],
+          link: "PERTEMUAN 16/Tugas 16.html",
+        },
+        {
+          label: "Pertemuan 17 | Latihan 1",
+          img: "img/p16.jpg",
+          title: "Pertemuan 17 | Latihan 1",
+          desc: "Pembuatan bintang segitiga siku-siku.",
+          tags: ["Javascript", "console", "log"],
+          link: "PERTEMUAN 17/Latihan 17-1.html",
+        },
+        {
+          label: "Pertemuan 17 | Latihan 1",
+          img: "img/p16.jpg",
+          title: "Pertemuan 17 | Latihan 1",
+          desc: "Pembuatan bintang segitiga sama kaki.",
+          tags: ["Javascript", "for", "Var"],
+          link: "PERTEMUAN 17/Latihan 17-2.html",
+        },
+        {
+          label: "Pertemuan 17 | Latihan 2",
+          img: "img/p16.jpg",
+          title: "Pertemuan 17 | Latihan 2",
+          desc: "Pembuatan bintang belah ketupat.",
+          tags: ["Javascript", "< >", "script"],
+          link: "PERTEMUAN 17/Latihan 17-3.html",
+        },
+        {
+          label: "Pertemuan 18 | Tugas 1",
+          img: "img/p17.png",
+          title: "Pertemuan 18 | Tugas 1",
+          desc: "Membuat halaman Website menu pilihan.",
+          tags: ["Function", "Input-output", "href"],
+          link: "PERTEMUAN 18/Tugas 18.html",
+        },
+        {
+          label: "Pertemuan 18 | Latihan 1-8",
+          img: "img/p17.png",
+          title: "Pertemuan 18 | Latihan 1-8",
+          desc: "Latihan Function dan Array.",
+          tags: ["SUM", "Function", "Array"],
+          link: "PERTEMUAN 18/latihan18.html",
+        },
+      ];
+
+      const projectsTrack = document.getElementById("projects-track");
+      projects.forEach((p) => {
+        const article = document.createElement("article");
+        article.className = "project-card scroll-fade";
+        article.innerHTML = `
+          <div class="project-label">${p.label}</div>
+          <img src="${p.img}" alt="${p.label}" class="project-image" />
+          <div class="project-overlay">
+            <div class="project-overlay-content">
+              <h3 class="project-title">${p.title}</h3>
+              <p class="project-desc">${p.desc}</p>
+              <div class="project-tags">
+                ${p.tags.map((t) => `<span class="tag-pill">${t}</span>`).join("")}
+              </div>
+              <div class="project-actions">
+                <a href="${p.link}" class="btn btn-live" target="_blank" rel="noopener noreferrer">
+                  VIEW LIVE
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+        projectsTrack.appendChild(article);
+      });
+
+      // Data Gallery
+      const galleryImages = [
+        { src: "img/foto1.jpg", link: "https://html.com/" },
+        { src: "img/foto2.jpg", link: "https://www.javascript.com/" },
+        { src: "img/foto3.png", link: "https://www.anaconda.com/" },
+        { src: "img/foto4.png", link: "https://www.python.org/" },
+      ];
+
+      const galleryTrack = document.getElementById("gallery-track");
+
+      galleryImages.forEach((img, i) => {
+        const item = document.createElement("div");
+        item.className = "gallery-item";
+
+        item.innerHTML = `
+    <a href="${img.link}" target="_blank" rel="noopener noreferrer">
+      <img src="${img.src}" alt="Foto ${i + 1}">
+    </a>
+  `;
+
+        galleryTrack.appendChild(item);
+      });
+
+      // Form kontak + Google Sheets
+      const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxUJp4-zpSjvRaDmiOufIy7IwyYeNPrQUogTk2mQLswgeEhPEynfiNT47I0-ZS7frZCJw/exec";
+
+      const form = document.getElementById("contact-form");
+      const namaInput = document.getElementById("nama");
+      const emailInput = document.getElementById("email");
+      const pesanInput = document.getElementById("pesan");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        [namaInput, emailInput, pesanInput].forEach((el) => el.classList.remove("is-invalid"));
+
+        const errors = [];
+        if (!namaInput.value.trim()) {
+          errors.push("Nama wajib diisi.");
+          namaInput.classList.add("is-invalid");
+        }
+        if (!emailInput.value.trim()) {
+          errors.push("Email wajib diisi.");
+          emailInput.classList.add("is-invalid");
+        } else if (!validateEmail(emailInput.value.trim())) {
+          errors.push("Format email tidak valid.");
+          emailInput.classList.add("is-invalid");
+        }
+        if (!pesanInput.value.trim()) {
+          errors.push("Pesan wajib diisi.");
+          pesanInput.classList.add("is-invalid");
+        }
+
+        if (errors.length > 0) {
+          alert("Harap lengkapi data berikut:\n\n- " + errors.join("\n- "));
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("nama", namaInput.value.trim());
+        formData.append("email", emailInput.value.trim());
+        formData.append("pesan", pesanInput.value.trim());
+
+        const submitBtn = form.querySelector(".contact-submit-btn");
+        submitBtn.disabled = true;
+        submitBtn.innerText = "Mengirim...";
+
+        fetch(SCRIPT_URL, { method: "POST", body: formData })
+          .then((res) => res.json())
+          .then((data) => {
+            if (data.status === "success") {
+              alert("Terima kasih! Pesan kamu sudah tersimpan.");
+              form.reset();
+            } else {
+              alert("Maaf, terjadi kesalahan saat menyimpan data.\n\n" + (data.message || "Coba beberapa saat lagi."));
+            }
+          })
+          .catch(() => {
+            alert("Terjadi masalah koneksi saat mengirim pesan.\nSilakan coba lagi nanti.");
+          })
+          .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.innerText = "Kirim Pesan ✉️";
+          });
+      });
+
+      function validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      }
+
+      // Animasi scroll-fade
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      document.querySelectorAll(".scroll-fade").forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>
